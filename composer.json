@@ -1,0 +1,15 @@
+{
+	"description" : "The CodeIgniter framework",
+	"name" : "codeigniter/framework",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.2.4"
+	},
+	"config": {
+        "vendor-dir": "application/vendor"
+    },
+	"require-dev": {
+		"tracy/tracy": "dev-master",				
+		"elasticsearch/elasticsearch": "dev-master"
+	}
+}
